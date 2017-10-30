@@ -2,11 +2,11 @@ package com.monzag.checkpoint4;
 
 public class Customer {
 
-    Integer id;
-    String name;
-    String surname;
-    Integer birthyear;
-    String gender;
+    private Integer id;
+    private String name;
+    private String surname;
+    private Integer birthyear;
+    private String gender;
 
 
     public Customer(Integer id, String name, String surname, Integer birthyear, String gender) {
